@@ -57,22 +57,22 @@
     if (isset($_POST['submit'])){
         if ($bmipass >= 13.6 && $bmipass <= 18.5) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px ;margin-right:50px'> Low body weight. You need to gain weight by eating moderately.</span>";?>
-            <img src="assets/Untitled-2 copy.png" class="one"><?php
+            <img src="assets/underweight.png" class="one"><?php
         } elseif ($bmipass > 18.5 && $bmipass < 24.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The standard of good health.</span>";?>
-            <img src="assets/Untitled-1 copy.png" class="two"><?php
+            <img src="assets/normal.png" class="two"><?php
         } elseif ($bmipass > 25 && $bmipass < 29.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> Excess body weight. Exercise needs to reduce excess weight.</span>";?>
-            <img src="assets/Untitled-3 copy.png" class="three"><?php
+            <img src="assets/overweight.png" class="three"><?php
         } elseif ($bmipass > 30 && $bmipass < 34.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The first stage of obesity. It is necessary to choose food and exercise.</span>";?>
-            <img src="assets/Untitled-4 copy.png" class="four"><?php
+            <img src="assets/obese.png" class="four"><?php
         } elseif ($bmipass > 35 && $bmipass < 39.9) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> The second stage of obesity. Moderate diet and exercise are required.</span>";?>
-            <img src="assets/Untitled-5 copy.png" class="five"><?php
+            <img src="assets/obese.png" class="five"><?php
         } elseif ($bmipass >= 40) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> Excess fat.<b style='color:#ed4337'> Fear of death</b>. Need a doctor advice.</span>";?>
-            <img src="assets/Untitled-6 copy.png" class="six"><?php
+            <img src="assets/extremeobese.png" class="six"><?php
         }
     } else {
         echo "";
