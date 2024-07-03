@@ -73,10 +73,10 @@
         } elseif ($bmipass >= 40) {
             echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> Excess fat.<b style='color:#ed4337'> Fear of death</b>. Need a doctor advice.</span>";?>
             <img src="assets/extremeobese.png" class="six"><?php
+        }else {
+            echo "<span style='color:#00203FFF; display:block; margin-top:5px;margin-right:50px'> <b style='color:#ed4337'> Fear of death</b>. Need a doctor advice.</span>";
         }
-    } else {
-        echo "Immediately Contact with your Doctor";
-    }
+    } 
 ?>
 
 <?php include 'bmi_footer.php'; ?>
