@@ -75,7 +75,7 @@
             <img src="assets/extremeobese.png" class="six"><?php
         }
     } else {
-        echo "";
+        echo "Immediately Contact with your Doctor";
     }
 ?>
 
