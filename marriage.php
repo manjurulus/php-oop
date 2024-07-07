@@ -16,10 +16,10 @@ switch ($gender) {
         $somvodhon = 'Vaiyaaaa';
         break;
     
-        case 'Female':
-            $marriageAge = 18;
-            $somvodhon = 'Apuuu';
-            break;
+    case 'Female':
+        $marriageAge = 18;
+        $somvodhon = 'Apuuu';
+        break;
     default:
         $marriageAge = 21;
         break;
