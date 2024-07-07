@@ -7,7 +7,7 @@ $gender = 'Female';
 $age = 2024 - $year;
 
 // find marriage age
-$marriageAg = Null;
+$marriageAge = Null;
 $somvodhon = Null;
 
 switch ($gender) {
